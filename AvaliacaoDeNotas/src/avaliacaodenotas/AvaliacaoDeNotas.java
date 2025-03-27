@@ -9,13 +9,13 @@ import java.util.Scanner;
 /**
  *
  * @author
- * Gabriel Gustavo Cavalcante Prevedel | RA: 00355045;
- * Marcela Costa dos Santos | RA: 00354653;
- * Matheus Abrahão Massoni | RA: 00353435;
- * Pedro Gabriel Selan Lacerda | RA: 00354527;
- * Rayza Gomes Batista | RA: 00354677;
- * Ryan Silva de Oliveira | RA: 00355025;
- * Tulio Perdigão de Castro | RA: 00353465;
+ * Gabriel Gustavo Cavalcante Prevedel;
+ * Marcela Costa dos Santos;
+ * Matheus Abrahão Massoni;
+ * Pedro Gabriel Selan Lacerda;
+ * Rayza Gomes Batista;
+ * Ryan Silva de Oliveira;
+ * Tulio Perdigão de Castro;
  * 
  */
 public class AvaliacaoDeNotas {
