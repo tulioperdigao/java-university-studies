@@ -5,6 +5,9 @@
  */
 package applicationconsumo;
 
+import consumo.Consumo;
+import interfaceUsuario.interfaceGUI;
+
 /**
  *
  * @author Tulio Castro
@@ -17,19 +20,7 @@ public class ApplicationConsumo {
     public static void main(String[] args) {
         // Programa para calcular o consumo de um veículo
         
-        // Declaração do objeto de Interface com o Usuário
-        InterfaceUsuario UserInterface = new InterfaceUsuario();
-        
-        // Dados de Entrada
-        int km = UserInterface.lerQuilometros();
-        float litros = UserInterface.lerLitros();
-        
-        // Declaração do objeto de interesse
-        Consumo consumo = new Consumo(km, litros);
-        
-        // Impressão do resultado na tela
-        UserInterface.exibirResultado(consumo);
-        
+        new interfaceGUI().setVisible(true);
     }
     
 }
